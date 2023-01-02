@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+            <html>
+            <head>
+            <style>
+            #customers {
+              font-family: Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            #customers td, #customers th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+            #customers tr:hover {background-color: #ddd;}
+
+            #customers th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: #04AA6D;
+              color: white;
+            }
+            </style>
+            </head>
+            <body>
+            <h1 style="text-align:center;background-color:powderblue;">Overview Report</h1><p>Total Tables-1</p><p style="color:green;">Matching-0</p><p style="color:red;">Not Matching-1</p><table border="1" class="dataframe" id="customers">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>TableName</th>
+      <th>Source_Count_Before_Remove_Dup</th>
+      <th>Target_Count_Before_Remove_Dup</th>
+      <th>Source_Count_After_Remove_Dup</th>
+      <th>Target_Count_After_Remove_Dup</th>
+      <th>Source_Dup_count</th>
+      <th>Target_Dup_count</th>
+      <th>Matching</th>
+      <th>Data_NotMatching</th>
+      <th>Source_Delta</th>
+      <th>Target_Delta</th>
+      <th>Status</th>
+      <th>MisMatch Columns</th>
+      <th>% Match</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>account_details_extracts</td>
+      <td>899</td>
+      <td>898</td>
+      <td>899</td>
+      <td>898</td>
+      <td>0</td>
+      <td>0</td>
+      <td>895</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Not Matching</td>
+      <td>['address' 'lastname']</td>
+      <td>99.66592427616926</td>
+    </tr>
+  </tbody>
+</table>

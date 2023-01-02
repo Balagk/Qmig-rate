@@ -1,0 +1,2 @@
+TableName,Source_Count_Before_Remove_Dup,Target_Count_Before_Remove_Dup,Source_Count_After_Remove_Dup,Target_Count_After_Remove_Dup,Source_Dup_count,Target_Dup_count,Matching,Data_NotMatching,Source_Delta,Target_Delta,Status,MisMatch Columns,% Match
+account_details_extracts,899,898,899,898,0,0,895,3,1,0,Not Matching,['address' 'lastname'],99.66592427616926

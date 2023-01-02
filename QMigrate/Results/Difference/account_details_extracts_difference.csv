@@ -1,0 +1,8 @@
+country_code,firstname,lastname,profileid,address,dob,accountid,Difference_status,Not_Matching_Columns
+usa,Aswin,Srinivasan,944743,"New York,543436",20-08-1995,1234570,source_delta,
+usa,Gokul,Govind,944773,"New York,543436",20-07-1995,1234568,source data mismatch,['lastname']
+usa,Gokul,Govindh,944773,"New York,543436",20-07-1995,1234568,target data mismatch,['lastname']
+ind,Henry,Rixon,988025,"Tokyo,521304",20-08-1995,1235224,source data mismatch,['address']
+ind,Henry,Rixon,988025,"Tokyo,521345",20-08-1995,1235224,target data mismatch,['address']
+ind,Leilani,Holmes,984981,"El Paso,521342",22-02-1994,1236965,source data mismatch,['address']
+ind,Leilani,Holmes,984981,"El Paso,521345",22-02-1994,1236965,target data mismatch,['address']
